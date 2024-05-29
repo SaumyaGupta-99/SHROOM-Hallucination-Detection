@@ -1,4 +1,4 @@
-# SHROOM-Hallucination-Detection-In-LLMS
+# SHROOM Hallucination Detection In LLMS
 With the increasing use of Large Language Models (LLMs) like ChatGPT for various tasks such as question answering, machine translation, and text correction, ensuring the accuracy of their outputs is crucial. Our study addresses
 the challenge of detecting hallucinated outputs from LLMs, which can be grammatically correct but factually incorrect or grammatically incorrect altogether for three types of tasks - definition modeling, paraphrasing and machine translation. I have used clustering tailored to different tasks using a combination of suitable metrics for hallucination detection. These approaches aim to improve the trustworthiness and accuracy of LLM-generated text, enhancing the reliability of AI-driven applications across domains.
 
