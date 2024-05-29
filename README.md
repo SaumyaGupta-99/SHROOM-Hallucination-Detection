@@ -68,5 +68,5 @@ Model Output: Hallucination
  <br>
 
 ## More Implemenations for Hallucination Detection
-We have also tried other implemenations like - training a Siamese network using BERT model and
-cosine similarity and employing prompting with the LLAMA model. All these implementations can be found here - https://github.com/anudeepragata/SHROOM
+We have also tried other implemenations like - **training a Siamese network using BERT model and
+cosine similarity and employing prompting with the LLAMA model**. All these implementations can be found here - https://github.com/anudeepragata/SHROOM
