@@ -1,0 +1,13 @@
+import scores
+train_data = scores.get_training_data('train.model-aware.v2.json')
+test_data = scores.get_training_data('test.model-aware.json')
+trial_data = scores.get_training_data('trial-v1.json')
+scores.calculate_scores(train_data, "MT", "train")
+scores.calculate_scores(train_data, "DM", "train")
+scores.calculate_scores(train_data, "PG", "train")
+scores.calculate_scores(test_data, "MT", "test")
+scores.calculate_scores(test_data, "DM", "test")
+scores.calculate_scores(test_data, "PG", "test")
+scores.calculate_scores(trial_data, "MT", "trial")
+scores.calculate_scores(trial_data, "DM", "trial")
+scores.calculate_scores(trial_data, "PG", "trial")
